@@ -1,0 +1,29 @@
+.sort-modal {
+    .modal-header {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px !important;
+        line-height: 150%;
+    }
+
+    .MuiFormControlLabel-label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .modal-dialog {
+        margin-top: 190px;
+    }
+
+    .modal-content{
+        border: none !important;
+    }
+}
+
+.modal-backdrop {
+    background-color: #eee !important;
+}

@@ -1,0 +1,13 @@
+@import './variables.scss';
+@import './fonts.scss';
+
+//components
+@import '../components/header/_header.scss';
+@import '../components/card/_card.scss';
+@import '../components/heading/_heading.scss';
+@import '../components/search/_search.scss';
+@import '../components/filters/_filters.scss';
+@import '../components/sort/_sort.scss';
+
+//styles
+@import './style.scss'

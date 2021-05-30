@@ -1,0 +1,61 @@
+.search {
+    max-width: 633px;
+    height: 51px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid $blue;
+    position: relative;
+    font-family: Roboto;
+
+    @media only screen and (max-width: 768px) {
+        height: 30px;
+    }
+
+    input {
+        height: 48px;
+        border: none;
+        border-radius: 10px;
+
+        @media only screen and (max-width: 768px) {
+            height: 28px;
+            font-size: 9px;
+        }
+    }
+
+    button {
+        background-color: $blue;
+        color: #fff;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        width: 138px;
+        border-radius: 10px !important;
+        height: 51px;
+        opacity: 0.7;
+        font-family: Roboto;
+        padding-left: 20px;
+
+        @media only screen and (max-width: 768px) {
+            height: 28px;
+            font-size: 7px;
+            width: 67px;
+        }
+    }
+
+    .MuiSvgIcon-root {
+        font-size: 1.2rem !important;
+        color: #fff;
+        position: absolute;
+        z-index: 2;
+        right: 83px;
+        top: 16px !important;
+
+        @media only screen and (max-width: 768px) {
+            right: 38px;
+            top:8px !important;
+            font-size: 0.8rem !important;
+        }
+    }
+}

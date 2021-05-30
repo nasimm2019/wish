@@ -1,0 +1,140 @@
+.filters {
+    background-color: #F2F2F2;
+    min-height: 820px;
+    padding: 38px;
+    height: auto;
+    border-radius: 15px;
+
+    &__categories {
+        .MuiFormControlLabel-label {
+            color: #000;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+        }
+    }
+
+    &__genres {
+        .MuiFormControlLabel-label {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            color: #424242;
+
+        }
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        color: $gray;
+        margin-bottom: 34px;
+    }
+
+    &__divider {
+        border: 1px solid #FFFFFF;
+        height: 1px;
+        background-color: #fff;
+        margin-top: 24px;
+        margin-bottom: 20px;
+    }
+
+    &__show-more {
+
+        color: #7E7E7E;
+        background: none;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 150%;
+        cursor: pointer;
+        display: flex;
+        padding-left: 25px;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+
+    &__sub-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: $black;
+        border: none;
+        text-align: left;
+        padding-left: 0 !important;
+
+    }
+
+    .form-check-input {
+        width: 26px !important;
+        height: 26px !important;
+
+    }
+
+    label {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 150%;
+        color: $gray-dark;
+        margin-left: 15px;
+    }
+
+    .MuiAccordionDetails-root {
+        padding: 0 !important;
+    }
+
+    .MuiAccordionSummary-root {
+        padding: 0 !important;
+    }
+
+    .MuiCollapse-entered {
+        margin-left: -30px !important;
+    }
+
+    .MuiAccordion-root:before {
+        background-color: #F2F2F2 !important;
+    }
+
+    .MuiSlider-markLabel {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .MuiCheckbox-colorPrimary.Mui-checked {
+        color: $blue !important;
+    }
+
+    .MuiIconButton-colorPrimary {
+        color: $blue !important;
+    }
+
+    &__filter-btn {
+        margin: 0 auto;
+        button {
+            width: 100%;
+            height: 42px;
+            background: $blue;
+            border: 1px solid $blue;
+            box-sizing: border-box;
+            border-radius: 7.5102px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+            margin-top: 50px;
+            margin-bottom: 80px;
+        }
+
+    }
+}

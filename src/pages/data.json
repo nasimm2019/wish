@@ -1,0 +1,200 @@
+[
+    {
+        "name":"Batman: The killing joker",
+        "rate":"4.1",
+        "price":"120",
+        "available":true,
+        "genre":"Comic Book",
+        "sort":0,
+        "category":"eBook"
+    },
+    {
+        "name": "Anna Karenina",
+        "rate": "3.1",
+        "price": "110",
+        "available": false,
+        "genre": "Comic Book",
+        "sort": 0,
+        "category":"Audio Book"
+    },
+    {
+        "name": "To Kill a Mockingbird",
+        "rate": "2.1",
+        "price": "100",
+        "available": true,
+        "genre": "Comic Book",
+        "sort": 0,
+        "category": "eBook"
+    },
+    {
+        "name": "The Great Gatsby",
+        "rate": "4.1",
+        "price": "120",
+        "available": true,
+        "genre": "Action & Advanture",
+        "sort": 0,
+        "category": "eBook"
+    },
+    {
+        "name": "One Hundred Years",
+        "rate": "4.5",
+        "price": "130",
+        "available": false ,
+        "genre": "Action & Advanture",
+        "sort": 0,
+        "category": "eBook"
+    },
+    {
+        "name": "A Passage to India",
+        "rate": "4.8",
+        "price": "140",
+        "available": true,
+        "genre": "Action & Advanture",
+        "sort":1,
+        "category": "eBook"
+    },
+    {
+        "name": "Invisible Man",
+        "rate": "4.1",
+        "price": "120",
+        "available": true,
+        "genre": "Action & Advanture",
+        "sort": 1,
+        "category": "eBook"
+    },
+    {
+        "name": "Don Quixote",
+        "rate": "3.1",
+        "price": "110",
+        "available": false,
+        "genre": "Fantasy",
+        "sort": 1,
+        "category": "eBook"
+    },
+    {
+        "name": "Beloved",
+        "rate": "2.1",
+        "price": "100",
+        "available": true,
+        "genre": "Comic Book",
+        "sort":1,
+        "category": "Audio Book"
+    },
+    {
+        "name": "Mrs. Dalloway",
+        "rate": "4.1",
+        "price": "120",
+        "available": true,
+        "genre": "Fantasy",
+        "sort": 1,
+        "category": "Audio Book"
+    },
+    {
+        "name": "Things Fall Apart",
+        "rate": "4.5",
+        "price": "130",
+        "available": false,
+        "genre": "Fantasy",
+        "sort": 1,
+        "category": "Audio Book"
+    },
+    {
+        "name": "Jane Eyre",
+        "rate": "4.8",
+        "price": "140",
+        "available": true,
+        "genre": "Fantasy",
+        "sort": 1,
+        "category": "Audio Book"
+    },
+    {
+        "name": "The Color Purple",
+        "rate": "4.1",
+        "price": "120",
+        "available": true,
+        "genre": "Historical Fiction",
+        "sort": 0,
+        "category": "Audio Book"
+    },
+    {
+        "name": "44 Scotland Street",
+        "rate": "3.1",
+        "price": "110",
+        "available": false,
+        "genre": "Historical Fiction",
+        "sort": 0,
+        "category": "Audio Book"
+    },
+    {
+        "name": "Early in Orcadia",
+        "rate": "2.1",
+        "price": "100",
+        "available": true,
+        "genre": "Comic Book",
+        "sort": 0,
+        "category": "Audio Book"
+    },
+    {
+        "name": "Raven Black",
+        "rate": "4.1",
+        "price": "120",
+        "available": true,
+        "genre": "Historical Fiction",
+        "sort": 0,
+        "category": "Audio Book"
+    },
+    {
+        "name": "Invisible Islands",
+        "rate": "4.5",
+        "price": "130",
+        "available": false,
+        "genre": "Comic Book",
+        "sort": 0,
+        "category": "Audio Book"
+    },
+    {
+        "name": "The Blackhouse",
+        "rate": "4.8",
+        "price": "140",
+        "available": true,
+        "genre": "Historical Fiction",
+        "sort": 1,
+        "category": "Audio Book"
+    },
+    {
+        "name": "Why the Whales Came",
+        "rate": "4.1",
+        "price": "120",
+        "available": true,
+        "genre": "Comic Book",
+        "sort": 1,
+        "category": "eBook"
+    },
+    {
+        "name": "Safe House",
+        "rate": "4.1",
+        "price": "120",
+        "available": true,
+        "genre": "Historical Fiction",
+        "sort": 0,
+        "category": "eBook"
+    },
+    {
+        "name": "The Heather Blazing",
+        "rate": "3.1",
+        "price": "110",
+        "available": false,
+        "genre": "Comic Book",
+        "sort": 0,
+        "category": "eBook"
+    },
+    {
+        "name": "White Teeth",
+        "rate": "2.1",
+        "price": "100",
+        "available": true,
+        "genre": "Historical Fiction",
+        "sort": 0,
+        "category": "eBook"
+    }
+]

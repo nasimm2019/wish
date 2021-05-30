@@ -1,0 +1,165 @@
+.grren-color {
+    color: $green;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1429px;
+    line-height: 150%;
+    font-family: Roboto;
+}
+
+
+.home {
+    font-family: Roboto;
+
+
+
+    &__hide-desktop {
+        @media only screen and (max-width: 768px) {
+            display: none !important;
+        }
+    }
+
+
+    &__products {
+
+
+        @media only screen and (min-width: 769px) {
+            display: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+            background: #FFFFFF;
+            box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            padding-top: 30px;
+        }
+    }
+
+    &__not-found {
+        margin: 0 auto;
+        font-family: Roboto;
+    }
+
+    &__divider {
+        height: 1px;
+        width: 100%;
+        background: #C4C4C4;
+        margin-top: 84px;
+    }
+
+    &__pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 85px;
+
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+
+        .MuiPaginationItem-page.Mui-selected {
+            background-color: $green !important;
+            color: #fff !important;
+        }
+
+        .MuiPaginationItem-page {
+            width: 39px !important;
+            height: 39px !important;
+            border-radius: 50% !important;
+            background: #F2F2F2 !important;
+            font-size: 14px;
+        }
+    }
+
+    &__action-desktop {
+        @media only screen and (min-width: 768px) {
+            display: none !important;
+        }
+
+        border-top: 1px solid #C4C4C4;
+        padding-top: 20px;
+
+        button {
+            width: 120.8px;
+            height: 27.2px;
+            background: #F1F1F1;
+            border-radius: 6.40001px;
+            border: none;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11.2px;
+            line-height: 26px;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+            color: #333333;
+        }
+    }
+
+    &__show-box {
+        display: flex;
+        flex-direction: row;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        width: 100%;
+        border-bottom: 1px solid #C4C4C4;
+        margin-bottom: 51px;
+        padding-bottom: 15px;
+        margin-top: 50px;
+
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+
+        button {
+            background: none;
+            border: none;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            color: $gray-dark;
+            width: 146px;
+        }
+
+        &__active {
+            width: 146px;
+            height: 37px;
+            background: #eee !important;
+            border-radius: 67px;
+        }
+    }
+
+    .MuiAccordion-root {
+        background: none !important;
+        box-shadow: none !important
+    }
+
+
+}
+
+.hide-responsive {
+    @media only screen and (min-width: 769px) {
+        display: none !important;
+    }
+}
+
+.filter-responsive {
+    background: #FFFFFF;
+
+    .filters {
+        background-color: #fff;
+        padding-top: 0px !important;
+    }
+
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14.2px;
+        line-height: 26px;
+        font-feature-settings: 'pnum'on, 'lnum'on;
+        color: $gray;
+        padding-left: 38px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
